@@ -50,6 +50,8 @@ kafka-console-consumer.sh --bootstrap-server kafka:9092 --topic kafkatopic1 --fr
 This is an ongoing project, and I will add more features:
 
 - [ ] Read information directly from life sources instead of historical data.
+    - [ ] Consider to create web scraper.
+    - [ ] Or paid services.
 - [ ] Deploy the setup on AWS.
 - [ ] Create a data consumer that will update dashboard everytime there is a new record.
     - [ ] Create a better pipeline on the `Consumer` part.
