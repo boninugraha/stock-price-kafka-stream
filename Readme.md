@@ -54,4 +54,6 @@ This is an ongoing project, and I will add more features:
 - [ ] Create a data consumer that will update dashboard everytime there is a new record.
     - [ ] Create a better pipeline on the `Consumer` part.
     - [ ] Create multiple topics, can be: stock ticker, or industry category.
+        - [ ] Ability to create a topic on the fly.
+        - [ ] Ability to delete a topic on the fly.
 - [ ] etc.
