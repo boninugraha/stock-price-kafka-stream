@@ -6,7 +6,9 @@ Run this command to setup the system:
 ```bash
 docker-compose -f docker-composer.yml up -d
 ```
-
+### Basic Kafka Flowchart
+![Kafka Flowchart](cluster_architecture.jpg)
+> Credit: [TutorialsPoint](https://www.tutorialspoint.com/apache_kafka/apache_kafka_cluster_architecture.htm)
 ## Setup the Kafka System
 Once containers created, we need to enter the kafka container, using this command:
 ```bash
