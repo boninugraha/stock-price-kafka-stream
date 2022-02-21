@@ -33,7 +33,7 @@ kafka-topics.sh --delete --zookeeper zookeeper:2181 --topic kafkatopic1
 ```
 
 ## Produce and Consume Message from Console
-Once we creted a topic we can send and receive message directly from a console.
+Once we created a topic we can send and receive message directly from a console.
 This app will try to produce and consume message from a python script, so we are not going to use these commands.
 ```bash
 # run topic producer
@@ -50,7 +50,7 @@ kafka-console-consumer.sh --bootstrap-server kafka:9092 --topic kafkatopic1 --fr
 This is an ongoing project, and I will add more features:
 
 - [ ] Read information directly from life sources instead of historical data.
-
+- [ ] Deploy the setup on AWS.
 - [ ] Create a data consumer that will update dashboard everytime there is a new record.
     - [ ] Create a better pipeline on the `Consumer` part.
     - [ ] Create multiple topics, can be: stock ticker, or industry category.
