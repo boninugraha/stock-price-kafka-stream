@@ -1,6 +1,3 @@
----
-title: Stock Price Pub/Sub System with Kafka
----
 # Stock Price Pub/Sub System with Kafka
 
 This app will simulate the kafka cluster using the docker container and can be scaled into a bigger system. The main idea is to reduce the amount of requests to financial resources that may have additional price if consumed multiple times. With this approach the `Producer` can consume data once, and multiple `Consumer`s can stream the data.
